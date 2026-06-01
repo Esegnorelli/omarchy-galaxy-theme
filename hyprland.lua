@@ -4,7 +4,7 @@
 -- ║  Lua timer), macOS-style frosted glass everywhere, teal glow.  ║
 -- ╚══════════════════════════════════════════════════════════════╝
 
-local activeBorder = { colors = { "rgb(3fc7dd)", "rgb(6fe0ee)", "rgb(e6b15a)" }, angle = 45 }
+local activeBorder = { colors = { "rgb(1fd4ee)", "rgb(5fecff)", "rgb(e6b15a)" }, angle = 45 }
 local inactiveBorder = "rgba(5a6e6c55)"
 
 hl.config({
@@ -24,7 +24,7 @@ hl.config({
       special = true, popups = true, popups_ignorealpha = 0.2,
     },
     shadow = { enabled = true, range = 50, render_power = 4, scale = 1.05,
-      color = "rgba(3fc7ddaa)", color_inactive = "rgba(0d1417cc)" },
+      color = "rgba(1fd4eeaa)", color_inactive = "rgba(0d1417cc)" },
   },
   animations = { enabled = true },
 })
@@ -53,8 +53,8 @@ hl.animation({ leaf = "layersOut", enabled = true, speed = 3, bezier = "eogGlide
 if not _G.__eog_alive then
   _G.__eog_alive = true
   local cycle = {
-    "3fc7dd","4fcfd8","6fd8c0","8fce9a","c7c06a","e6b15a","e0935a",
-    "d9674a","e0935a","e6b15a","c7c06a","8fce9a","6fd8c0","4fcfd8",
+    "1fd4ee","3fe6f0","6fd8c0","8fce9a","c7c06a","e6b15a","e0935a",
+    "d9674a","e0935a","e6b15a","c7c06a","8fce9a","6fd8c0","3fe6f0",
   }
   local n = #cycle
   local i = 0

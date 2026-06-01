@@ -16,7 +16,7 @@ green   = "#5cba94"
 yellow  = "#e6b15a"
 blue    = "#4593bf"
 magenta = "#ab7fb0"
-cyan    = "#3fc7dd"
+cyan    = "#1fd4ee"
 white   = "#dde6e3"
 
 [colors.bright]
@@ -26,13 +26,13 @@ green   = "#78cfa8"
 yellow  = "#f0c478"
 blue    = "#5fb0d8"
 magenta = "#c79ac8"
-cyan    = "#6fe0ee"
+cyan    = "#5fecff"
 white   = "#f0f4f0"
 
 [colors.cursor]
 text   = "#0d1417"
-cursor = "#3fc7dd"
+cursor = "#1fd4ee"
 
 [colors.selection]
 text       = "#0d1417"
-background = "#3fc7dd"
+background = "#1fd4ee"

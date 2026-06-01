@@ -1,0 +1,38 @@
+# Claude Eye of God — Alacritty
+[window]
+opacity = 0.78
+
+[colors]
+transparent_background_colors = true
+
+[colors.primary]
+background = "#0d1417"
+foreground = "#dde6e3"
+
+[colors.normal]
+black   = "#18211f"
+red     = "#d9674a"
+green   = "#5cba94"
+yellow  = "#e6b15a"
+blue    = "#4593bf"
+magenta = "#ab7fb0"
+cyan    = "#3fc7dd"
+white   = "#dde6e3"
+
+[colors.bright]
+black   = "#5a6e6c"
+red     = "#e88060"
+green   = "#78cfa8"
+yellow  = "#f0c478"
+blue    = "#5fb0d8"
+magenta = "#c79ac8"
+cyan    = "#6fe0ee"
+white   = "#f0f4f0"
+
+[colors.cursor]
+text   = "#0d1417"
+cursor = "#3fc7dd"
+
+[colors.selection]
+text       = "#0d1417"
+background = "#3fc7dd"

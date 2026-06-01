@@ -1,0 +1,26 @@
+/* Claude Eye of God — SwayOSD */
+@define-color background-color #0d1417;
+@define-color border-color      #3fc7dd;
+@define-color label             #dde6e3;
+@define-color image             #dde6e3;
+@define-color progress          #3fc7dd;
+
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-width: 0;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+
+window:not(:backdrop) #container,
+window:backdrop #container {
+    border: 2px solid @border-color;
+    border-radius: 14px;
+    background-color: @background-color;
+    padding: 12px;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.9);
+}
